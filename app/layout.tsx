@@ -2,14 +2,14 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "ZeroClaw | Zero Overhead, Zero Compromise",
-  description: "Next-generation AI assistant framework built with Rust. Ultra-lightweight, blazing fast, memory-safe, supporting 22+ AI providers and multi-platform integration."
+  title: "ZeroClaw | Security Intelligence",
+  description: "ZeroClaw official website built with Next.js and Tailwind CSS"
 };
 
-export default function RootLayout({
-  children
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
-  return children;
+export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
+  return (
+    <html lang="zh-CN">
+      <body>{children}</body>
+    </html>
+  );
 }
