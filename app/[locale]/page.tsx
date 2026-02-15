@@ -81,12 +81,12 @@ export default function HomePage({ params }: { params: Promise<{ locale: Locale 
               <a href="#features" className="hover:text-black transition-colors">{t('nav.features')}</a>
               <a href="#architecture" className="hover:text-black transition-colors">{t('nav.architecture')}</a>
               <a href="#comparison" className="hover:text-black transition-colors">{t('nav.comparison')}</a>
-              <a href="https://github.com/theonlyhennygod/zeroclaw" target="_blank" rel="noreferrer" className="hover:text-black transition-colors">{t('nav.github')}</a>
+              <a href="https://github.com/openagen/zeroclaw" target="_blank" rel="noreferrer" className="hover:text-black transition-colors">{t('nav.github')}</a>
             </div>
             <LanguageSwitcherClient />
           </div>
           <a
-            href="https://github.com/theonlyhennygod/zeroclaw"
+            href="https://github.com/openagen/zeroclaw"
             target="_blank"
             rel="noreferrer"
             className="bg-black text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-gray-800 transition-colors"
@@ -111,7 +111,7 @@ export default function HomePage({ params }: { params: Promise<{ locale: Locale 
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="https://github.com/theonlyhennygod/zeroclaw"
+                href="https://github.com/openagen/zeroclaw"
                 target="_blank"
                 rel="noreferrer"
                 className="bg-black text-white px-8 py-3 rounded-lg font-medium hover:bg-gray-800 transition-colors"
@@ -274,7 +274,7 @@ export default function HomePage({ params }: { params: Promise<{ locale: Locale 
             {t('cta.description')}
           </p>
           <a
-            href="https://github.com/theonlyhennygod/zeroclaw"
+            href="https://github.com/openagen/zeroclaw"
             target="_blank"
             rel="noreferrer"
             className="inline-block bg-black text-white px-8 py-3 rounded-lg font-medium hover:bg-gray-800 transition-colors"
@@ -297,10 +297,10 @@ export default function HomePage({ params }: { params: Promise<{ locale: Locale 
             {t('footer.license')} • {t('footer.builtWith')}
           </p>
           <div className="flex items-center gap-6 text-sm text-gray-600">
-            <a href="https://github.com/theonlyhennygod/zeroclaw" target="_blank" rel="noreferrer" className="hover:text-black transition-colors">
+            <a href="https://github.com/openagen/zeroclaw" target="_blank" rel="noreferrer" className="hover:text-black transition-colors">
               GitHub
             </a>
-            <a href="https://github.com/theonlyhennygod/zeroclaw/stargazers" target="_blank" rel="noreferrer" className="hover:text-black transition-colors">
+            <a href="https://github.com/openagen/zeroclaw/stargazers" target="_blank" rel="noreferrer" className="hover:text-black transition-colors">
               {t('footer.star')}
             </a>
           </div>

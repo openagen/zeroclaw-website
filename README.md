@@ -41,5 +41,5 @@ pnpm run start
 
 ## 链接
 
-- GitHub: https://github.com/theonlyhennygod/zeroclaw
+- GitHub: https://github.com/openagen/zeroclaw
 - License: MIT
