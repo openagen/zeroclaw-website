@@ -1,0 +1,112 @@
+{
+  "nav": {
+    "features": "Features",
+    "architecture": "Architecture",
+    "comparison": "Comparison",
+    "github": "GitHub",
+    "getStarted": "Get Started"
+  },
+  "hero": {
+    "badge": "🚀 AI-Powered Assistant Infrastructure in Rust",
+    "title": "Zero Overhead, Zero Compromise",
+    "description": "ZeroClaw is a next-generation AI assistant framework written in Rust. Ultra-lightweight, blazing fast, memory-safe, built for production.",
+    "visitGithub": "Visit GitHub",
+    "learnMore": "Learn More"
+  },
+  "stats": {
+    "startup": "<10ms",
+    "startupLabel": "Startup Time",
+    "size": "3.4MB",
+    "sizeLabel": "Binary Size",
+    "providers": "22+",
+    "providersLabel": "AI Providers"
+  },
+  "features": {
+    "title": "Why Choose ZeroClaw?",
+    "subtitle": "Lightweight infrastructure designed for modern AI applications",
+    "items": {
+      "fast": {
+        "icon": "⚡",
+        "title": "Blazing Fast",
+        "description": "Cold startup time < 10ms, instant response"
+      },
+      "lightweight": {
+        "icon": "📦",
+        "title": "Ultra Lightweight",
+        "description": "Binary size only 3.4MB, minimal resource usage"
+      },
+      "pluggable": {
+        "icon": "🔌",
+        "title": "Pluggable Architecture",
+        "description": "Flexible component extension based on Rust trait system"
+      },
+      "safe": {
+        "icon": "🔒",
+        "title": "Memory Safe",
+        "description": "Guaranteed by Rust, no data races, no memory leaks"
+      },
+      "multiplatform": {
+        "icon": "🌐",
+        "title": "Multi-Platform",
+        "description": "Support 22+ AI providers, Telegram/Discord/Slack and more"
+      },
+      "zero": {
+        "icon": "🚀",
+        "title": "Zero Overhead",
+        "description": "Zero runtime overhead, uncompromised performance"
+      }
+    }
+  },
+  "architecture": {
+    "title": "Flexible Architecture Design",
+    "subtitle": "Pluggable architecture based on Rust trait system",
+    "layers": {
+      "core": {
+        "title": "Core Layer",
+        "items": ["Trait-based architecture", "Memory safety guarantee", "Async runtime"]
+      },
+      "adapter": {
+        "title": "AI Adapter Layer",
+        "items": ["Unified API abstraction", "22+ AI providers", "Flexible switching"]
+      },
+      "channel": {
+        "title": "Channel Layer",
+        "items": ["Multi-platform support", "Message routing", "Event handling"]
+      }
+    }
+  },
+  "platforms": {
+    "title": "Broad Support",
+    "subtitle": "Seamless integration with mainstream AI providers and communication platforms"
+  },
+  "comparison": {
+    "title": "Performance Comparison",
+    "subtitle": "Comparison with OpenClaw",
+    "items": {
+      "zeroclaw": {
+        "memory": "Very Low",
+        "safety": "Rust Guaranteed"
+      },
+      "openclaw": {
+        "memory": "High",
+        "safety": "Runtime Checks"
+      }
+    },
+    "labels": {
+      "startup": "Startup Time",
+      "size": "Binary Size",
+      "memory": "Memory Usage",
+      "safety": "Safety Guarantee"
+    }
+  },
+  "cta": {
+    "title": "Get Started with ZeroClaw",
+    "description": "Next-generation AI assistant infrastructure built with Rust, designed for production.",
+    "button": "Visit GitHub Repository"
+  },
+  "footer": {
+    "license": "MIT License",
+    "builtWith": "Built with Next.js & Tailwind CSS",
+    "star": "Star"
+  }
+}
