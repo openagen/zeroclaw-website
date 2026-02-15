@@ -42,15 +42,15 @@ export default function HomePage({ params }: { params: Promise<{ locale: Locale 
   const comparison = [
     {
       name: "ZeroClaw",
-      key: "zeroclaw"
+      key: "zeroclaw" as const
     },
     {
       name: "OpenClaw",
-      key: "openclaw"
+      key: "openclaw" as const
     }
   ];
 
-  const comparisonData = {
+  const comparisonData: Record<string, {startup: string; size: string; memory: string; safety: string}> = {
     zeroclaw: {
       startup: "< 10ms",
       size: "3.4MB",
