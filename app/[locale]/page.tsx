@@ -127,6 +127,51 @@ export default function HomePage({ params }: { params: Promise<{ locale: Locale 
             </div>
           </div>
 
+          {/* ClawShopping CTA */}
+          <div className="mt-16 bg-gradient-to-r from-blue-50 via-purple-50 to-pink-50 rounded-2xl p-8 md:p-10 border border-blue-100">
+            <div className="max-w-3xl mx-auto text-center">
+              <div className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-blue-500 to-purple-500 text-white rounded-full text-sm font-medium mb-6">
+                <span className="animate-pulse">🔥</span>
+                <span>{t('hero.clawshopping.badge')}</span>
+              </div>
+              <h2 className="text-3xl md:text-4xl font-bold mb-4 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+                {t('hero.clawshopping.title')}
+              </h2>
+              <p className="text-gray-700 text-lg mb-6 leading-relaxed">
+                {t('hero.clawshopping.description')}
+              </p>
+              <div className="grid sm:grid-cols-3 gap-4 mb-8">
+                <div className="bg-white/80 backdrop-blur rounded-lg p-4 border border-blue-100">
+                  <div className="text-2xl mb-2">🎁</div>
+                  <div className="font-semibold text-gray-900">{t('hero.clawshopping.bonus1.title')}</div>
+                  <div className="text-sm text-gray-600">{t('hero.clawshopping.bonus1.desc')}</div>
+                </div>
+                <div className="bg-white/80 backdrop-blur rounded-lg p-4 border border-purple-100">
+                  <div className="text-2xl mb-2">💎</div>
+                  <div className="font-semibold text-gray-900">{t('hero.clawshopping.bonus2.title')}</div>
+                  <div className="text-sm text-gray-600">{t('hero.clawshopping.bonus2.desc')}</div>
+                </div>
+                <div className="bg-white/80 backdrop-blur rounded-lg p-4 border border-pink-100">
+                  <div className="text-2xl mb-2">🚀</div>
+                  <div className="font-semibold text-gray-900">{t('hero.clawshopping.bonus3.title')}</div>
+                  <div className="text-sm text-gray-600">{t('hero.clawshopping.bonus3.desc')}</div>
+                </div>
+              </div>
+              <a
+                href="https://clawshopping.com?utm_source=zeroclaw&utm_medium=website&utm_campaign=hero_cta"
+                target="_blank"
+                rel="noreferrer"
+                className="inline-flex items-center gap-2 bg-gradient-to-r from-blue-600 to-purple-600 text-white px-10 py-4 rounded-xl font-semibold text-lg hover:shadow-lg hover:scale-105 transition-all duration-200"
+              >
+                {t('hero.clawshopping.cta')}
+                <span className="text-xl">→</span>
+              </a>
+              <p className="text-sm text-gray-500 mt-4">
+                {t('hero.clawshopping.limited')}
+              </p>
+            </div>
+          </div>
+
           {/* Stats */}
           <div className="grid grid-cols-3 gap-8 mt-20 pt-10 border-t border-gray-100">
             <div className="text-center">

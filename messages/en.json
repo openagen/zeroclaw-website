@@ -11,7 +11,26 @@
     "title": "Zero Overhead, Zero Compromise",
     "description": "ZeroClaw is a next-generation AI assistant framework written in Rust. Ultra-lightweight, blazing fast, memory-safe, built for production.",
     "visitGithub": "Visit GitHub",
-    "learnMore": "Learn More"
+    "learnMore": "Learn More",
+    "clawshopping": {
+      "badge": "Limited Early Access",
+      "title": "Get Early, Earn Future Rewards",
+      "description": "Visit ClawShopping.com to start earning points during the early phase. Early adopters get exclusive rewards, with future potential to convert points into tokens!",
+      "bonus1": {
+        "title": "Early Point Bonuses",
+        "desc": "First wave users enjoy multiplier bonuses"
+      },
+      "bonus2": {
+        "title": "Future Token Airdrop",
+        "desc": "Points may be convertible to platform tokens"
+      },
+      "bonus3": {
+        "title": "Exclusive Perks",
+        "desc": "Early users get special platform privileges"
+      },
+      "cta": "Visit ClawShopping.com Now",
+      "limited": "⏰ Limited early opportunity, first come first served"
+    }
   },
   "stats": {
     "startup": "<10ms",

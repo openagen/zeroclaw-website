@@ -11,7 +11,26 @@
     "title": "零开销，零妥协",
     "description": "ZeroClaw 是用 Rust 编写的下一代 AI 助手框架。超轻量、极速启动、内存安全，为生产环境而生。",
     "visitGithub": "访问 GitHub",
-    "learnMore": "了解更多"
+    "learnMore": "了解更多",
+    "clawshopping": {
+      "badge": "限时早期活动",
+      "title": "抢先体验，赚取未来财富",
+      "description": "访问 ClawShopping.com，在早期阶段开始累积积分。早期参与者将获得丰厚奖励，未来积分可兑换潜在代币！",
+      "bonus1": {
+        "title": "早期积分奖励",
+        "desc": "首波用户享有多倍积分加成"
+      },
+      "bonus2": {
+        "title": "未来代币空投",
+        "desc": "积分可能兑换为平台代币"
+      },
+      "bonus3": {
+        "title": "独家权益",
+        "desc": "早期用户享有平台特权"
+      },
+      "cta": "立即访问 ClawShopping.com",
+      "limited": "⏰ 早期机会有限，先到先得"
+    }
   },
   "stats": {
     "startup": "<10ms",
